@@ -1,0 +1,60 @@
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/i/examples/landingPage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/i/examples/loginPage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/i/examples/blogPage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/i/examples/sidebarPage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:27:22+08:00 ] ::1 /GreatProject/assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-08-15T15:29:08+08:00 ] ::1 /GreatProject/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Index
+
+[ 2016-08-15T16:03:37+08:00 ] ::1 /GreatProject/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Sidebar
+
+[ 2016-08-15T16:04:03+08:00 ] ::1 /GreatProject/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载模块:Sidebar
+
