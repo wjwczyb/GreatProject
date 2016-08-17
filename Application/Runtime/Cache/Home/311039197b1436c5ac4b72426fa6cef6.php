@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head lang="en">
   <meta charset="UTF-8">
@@ -8,8 +8,8 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
-  <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+  <link rel="alternate icon" type="image/png" href="/GreatProject/Public/AmazeUI/assets/i/favicon.png">
+  <link rel="stylesheet" href="/GreatProject/Public/AmazeUI/assets/css/amazeui.min.css"/>
   <style>
     .header {
       text-align: center;

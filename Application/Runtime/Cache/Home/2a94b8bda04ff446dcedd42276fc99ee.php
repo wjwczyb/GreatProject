@@ -1,169 +1,270 @@
-<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
-<html class="no-js">
-<head>
-  <meta charset="utf-8">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>欢迎来到王建伟的主页 | 我们在追逐梦(chao)想(piao)永无止境</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
-  <title>Amaze UI Examples</title>
-
-  <!-- Set render engine for 360 browser -->
+  <meta name="format-detection" content="telephone=no">
   <meta name="renderer" content="webkit">
-
-  <!-- No Baidu Siteapp-->
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="/GreatProject/Public/AmazeUI/assets/i/favicon.png">
+  <link rel="stylesheet" href="/GreatProject/Public/AmazeUI/assets/css/amazeui.min.css"/>
+  <style>
+    .get {
+      background: #1E5B94;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
 
-  <link rel="icon" type="image/png" href="/GreatProject/Public/AmazeUI/assets/i/favicon.png">
+    .get-title {
+      font-size: 200%;
+      border: 2px solid #fff;
+      padding: 20px;
+      display: inline-block;
+    }
 
-  <!-- Add to homescreen for Chrome on Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="/GreatProject/Public/AmazeUI/assets/i/app-icon72x72@2x.png">
+    .get-btn {
+      background: #fff;
+    }
 
-  <!-- Add to homescreen for Safari on iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-  <link rel="apple-touch-icon-precomposed" href="/GreatProject/Public/AmazeUI/assets/i/app-icon72x72@2x.png">
+    .detail {
+      background: #fff;
+    }
 
-  <!-- Tile icon for Win8 (144x144 + tile color) -->
-  <meta name="msapplication-TileImage" content="/GreatProject/Public/AmazeUI/assets/i/app-icon72x72@2x.png">
-  <meta name="msapplication-TileColor" content="#0e90d2">
+    .detail-h2 {
+      text-align: center;
+      font-size: 150%;
+      margin: 40px 0;
+    }
 
-  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-  <!--
-  <link rel="canonical" href="http://www.example.com/">
-  -->
+    .detail-h3 {
+      color: #1f8dd6;
+    }
 
-  <link rel="stylesheet" href="/GreatProject/Public/AmazeUI/assets/css/amazeui.min.css">
-  <link rel="stylesheet" href="/GreatProject/Public/AmazeUI/assets/css/app.css">
+    .detail-p {
+      color: #7f8c8d;
+    }
+
+    .detail-mb {
+      margin-bottom: 30px;
+    }
+
+    .hope {
+      background: #0bb59b;
+      padding: 50px 0;
+    }
+
+    .hope-img {
+      text-align: center;
+    }
+
+    .hope-hr {
+      border-color: #149C88;
+    }
+
+    .hope-title {
+      font-size: 140%;
+    }
+
+    .about {
+      background: #fff;
+      padding: 40px 0;
+      color: #7f8c8d;
+    }
+
+    .about-color {
+      color: #34495e;
+    }
+
+    .about-title {
+      font-size: 180%;
+      padding: 30px 0 50px 0;
+      text-align: center;
+    }
+
+    .footer p {
+      color: #7f8c8d;
+      margin: 0;
+      padding: 15px 0;
+      text-align: center;
+      background: #2d3e50;
+    }
+  </style>
 </head>
 <body>
-<!--[if lte IE 9]>
-<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a
-  href="http://browsehappy.com/" target="_blank">升级浏览器</a>
-  以获得更好的体验！</p>
-<![endif]-->
+<header class="am-topbar am-topbar-fixed-top">
+  <div class="am-container">
+    <h1 class="am-topbar-brand">
+      <a href="#">Amaze UI</a>
+    </h1>
 
-<!-- 页面内容 开发时删除 -->
-<div class="am-g am-g-fixed am-margin-top">
-  <div class="am-u-sm-12">
-    <h1>你好世界！小可 Amaze UI 模板。</h1>
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+            data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
 
-    <p>这是一个基础的页面，引入 Amaze UI 的 css 、js
-      文件。如果你已经熟读文档，使用时删除内容开始开发即可。建议使用前先阅读文档，以提高开发效率。</p>
+    <div class="am-collapse am-topbar-collapse" id="collapse-head">
+      <ul class="am-nav am-nav-pills am-topbar-nav">
+        <li class="am-active"><a href="#">首页</a></li>
+        <li><a href="/GreatProject/Blog/index/">博客</a></li>
+        <li class="am-dropdown" data-am-dropdown>
+          <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            工具 <span class="am-icon-caret-down"></span>
+          </a>
+          <ul class="am-dropdown-content">
+            <li class="am-dropdown-header">O(∩_∩)O~</li>
+            <li><a href="#">1. 校园项目</a></li>
+            <li><a href="#">2. 数据可视化项目</a></li>
+            <li><a href="#">3. 电影票项目</a></li>
+            <li><a href="#">4. 办公项目</a></li>
+            <li><a href="#">5. 同城书架</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="am-topbar-right">
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span> 注册</button>
+      </div>
+
+      <div class="am-topbar-right">
+        <a href='/GreatProject/Home/index/homelogin'><button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button></a>
+      </div>
+
+
+      <div class="am-topbar-right">
+        <a href='/GreatProject/Admin/index'><button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 后台</button></a>
+      </div>
+
+    </div>
   </div>
-</div>
-<div class="am-g am-g-fixed am-margin-top">
-  <p class="am-u-sm-12">下载包里面有 4 个常见布局示例，供开发者参考。</p>
+</header>
 
-  <div class="am-u-sm-12">
-    <div class="am-g">
-      <div class="am-u-sm-12 am-u-md-3">
-        <a href="landing.html"><img class="am-img-thumbnail"
-                                    src="/GreatProject/Public/AmazeUI/assets/i/examples/landingPage.png"
-                                    alt="展示页面"/></a>
-      </div>
-      <div class="am-u-sm-12 am-u-md-9">
-        <h3>展示页面</h3>
+<div class="get">
+  <div class="am-g">
+    <div class="am-u-lg-12">
+      <h1 class="get-title">Amaze UI - HTML5 跨屏前端框架</h1>
 
-        <p>
-          CSS 部分：<a class="am-badge am-badge-success" href="/css/grid">网格</a> <a
-          class="am-badge am-badge-success" href="/css/icon">图标</a> <a
-          class="am-badge am-badge-success" href="/css/button">按钮</a> <a
-          class="am-badge am-badge-success" href="/css/form">表单</a> <a
-          class="am-badge am-badge-success" href="/css/article">文章页</a> <a
-          class="am-badge am-badge-success" href="/css/topbar">导航条</a> <a
-          class="am-badge am-badge-success" href="/css/utility">辅助类</a><br/>
-          JS 插件部分：<a class="am-badge am-badge-primary"
-                     href="/javascript/dropdown">下拉组件</a> <a
-          class="am-badge am-badge-primary"
-          href="/javascript/scrollspy">滚动侦测</a>
-        </p>
-      </div>
+      <p>
+        期待你的参与，共同打造一个简单易用的前端框架
+      </p>
+
+      <p>
+        <a href="http://amazeui.org" class="am-btn am-btn-sm get-btn">获取新get技能√</a>
+      </p>
     </div>
-    <div class="am-g am-margin-top">
-      <div class="am-u-sm-12 am-u-md-3">
-        <a href="login.html"><img class="am-img-thumbnail"
-                                  src="/GreatProject/Public/AmazeUI/assets/i/examples/loginPage.png"
-                                  alt="登录页面"/></a>
-      </div>
-      <div class="am-u-sm-12 am-u-md-9">
-        <h3>登录页面</h3>
-
-        <p>
-          CSS 部分：<a class="am-badge am-badge-success" href="/css/grid">网格</a> <a
-          class="am-badge am-badge-success" href="/css/icon">图标</a> <a
-          class="am-badge am-badge-success" href="/css/button">按钮</a> <a
-          class="am-badge am-badge-success" href="/css/button-group">按钮组</a> <a
-          class="am-badge am-badge-success" href="/css/form">表单</a>
-        </p>
-      </div>
-    </div>
-    <div class="am-g am-margin-top">
-      <div class="am-u-sm-12 am-u-md-3">
-        <a href="blog.html"><img class="am-img-thumbnail"
-                                 src="/GreatProject/Public/AmazeUI/assets/i/examples/blogPage.png"
-                                 alt="博客页面"/></a>
-      </div>
-      <div class="am-u-sm-12 am-u-md-9">
-        <h3>博客页面</h3>
-
-        <p>
-          CSS 部分：<a class="am-badge am-badge-success" href="/css/grid">网格</a> <a
-          class="am-badge am-badge-success" href="/css/block-grid">等宽布局</a> <a
-          class="am-badge am-badge-success" href="/css/icon">图标</a> <a
-          class="am-badge am-badge-success" href="/css/button">按钮</a> <a
-          class="am-badge am-badge-success" href="/css/panel">面板</a> <a
-          class="am-badge am-badge-success" href="/css/list">列表</a> <a
-          class="am-badge am-badge-success" href="/css/pagination">分页</a><br/>
-          JS 插件部分：<a class="am-badge am-badge-primary"
-                     href="/css/dropdown">下拉组件</a>
-        </p>
-      </div>
-    </div>
-    <div class="am-g am-margin-top">
-      <div class="am-u-sm-12 am-u-md-3">
-        <a href="sidebar.html"><img class="am-img-thumbnail"
-                                    src="/GreatProject/Public/AmazeUI/assets/i/examples/sidebarPage.png"
-                                    alt="博客侧栏页面"/></a>
-      </div>
-      <div class="am-u-sm-12 am-u-md-9">
-        <h3>博客侧栏页面</h3>
-
-        <p>
-          CSS 部分：<a class="am-badge am-badge-success" href="/css/grid">网格</a> <a
-          class="am-badge am-badge-success" href="/css/article">文章页</a> <a
-          class="am-badge am-badge-success" href="/css/comment">评论列表</a> <a
-          class="am-badge am-badge-success" href="/css/button">按钮</a> <a
-          class="am-badge am-badge-success" href="/css/icon">图标</a> <a
-          class="am-badge am-badge-success" href="/css/list">列表</a> <a
-          class="am-badge am-badge-success" href="/css/utility">辅助类</a><br/>
-          JS 插件部分：<a class="am-badge am-badge-primary"
-                     href="/javascript/offcanvas">侧边栏组件</a>
-        </p>
-      </div>
-    </div>
-    <hr/>
-    <h2>Web 组件示例</h2>
-    <ul>
-      <li><a href="widget.basic.html">widget.basic.html</a> 使用了 <a
-        href="http://amazeui.org/widgets">Web 组件</a> 的 HTML 结构和样式，但没用使用模板在前端渲染数据，供通过后端渲染数据的用户参考。</li>
-      <li><a href="widget.html">widget.html</a> 是 Web 组件的展示，更多细节查看：<a
-        href="http://amazeui.org/widgets">Web 组件</a></li>
-    </ul>
-    <h3>开始创建你的网页吧。</h3>
   </div>
 </div>
 
-<footer class="am-margin-top">
-  <hr/>
-  <p class="am-text-center">
-    <small>by The AmazeUI Team.</small>
-  </p>
+<div class="detail">
+  <div class="am-g am-container">
+    <div class="am-u-lg-12">
+      <h2 class="detail-h2">One Web 、Any Device，期待和你一起去实现!</h2>
+
+      <div class="am-g">
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+
+          <h3 class="detail-h3">
+            <i class="am-icon-mobile am-icon-sm"></i>
+            为移动而生
+          </h3>
+
+          <p class="detail-p">
+            Amaze UI 采用业内先进的 mobile first 理念，从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。
+          </p>
+        </div>
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-cogs am-icon-sm"></i>
+            组件丰富，模块化
+          </h3>
+
+          <p class="detail-p">
+            Amaze UI 含近 20 个 CSS 组件、10 个 JS 组件，更有 17 款包含近 60 个主题的 Widgets，可快速构建界面出色、体验优秀的跨屏页面，大幅度提升你的开发效率。
+          </p>
+        </div>
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-check-square-o am-icon-sm"></i>
+            本地化支持
+          </h3>
+
+          <p class="detail-p">
+            相比国外的前端框架，Amaze UI 专注解决中文排版优化问题，根据操作系统调整字体，实现最佳中文排版效果；针对国内主流浏览器及 App 内置浏览器提供更好的兼容性支持，为你节省大量兼容性调试时间。
+          </p>
+        </div>
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-send-o am-icon-sm"></i>
+            轻量级，高性能
+          </h3>
+
+          <p class="detail-p">
+            Amaze UI 非常注重性能，基于轻量的 Zepto.js 开发，并使用 CSS3 来做动画交互，平滑、高效，更适合移动设备，让你的 Web 应用可以高速载入。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hope">
+  <div class="am-g am-container">
+    <div class="am-u-lg-4 am-u-md-6 am-u-sm-12 hope-img">
+      <img src="/GreatProject/Public/AmazeUI/assets/i/examples/landing.png" alt="" data-am-scrollspy="{animation:'slide-left', repeat: false}">
+      <hr class="am-article-divider am-show-sm-only hope-hr">
+    </div>
+    <div class="am-u-lg-8 am-u-md-6 am-u-sm-12">
+      <h2 class="hope-title">同我们一起打造你的前端框架</h2>
+
+      <p>
+        在知识爆炸的年代，我们不愿成为知识的过客，拥抱开源文化，发挥社区的力量，参与到Amaze Ui开源项目能获得自我提升。
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="about">
+  <div class="am-g am-container">
+    <div class="am-u-lg-12">
+      <h2 class="about-title about-color">Amaze UI 崇尚开放、自由，非常欢迎大家的参与</h2>
+
+      <div class="am-g">
+        <div class="am-u-lg-6 am-u-md-4 am-u-sm-12">
+          <form class="am-form">
+            <label for="name" class="about-color">你的姓名</label>
+            <input id="name" type="text">
+            <br/>
+            <label for="email" class="about-color">你的邮箱</label>
+            <input id="email" type="email">
+            <br/>
+            <label for="message" class="about-color">你的留言</label>
+            <textarea id="message"></textarea>
+            <br/>
+            <button type="submit" class="am-btn am-btn-primary am-btn-sm"><i class="am-icon-check"></i> 提 交</button>
+          </form>
+          <hr class="am-article-divider am-show-sm-only">
+        </div>
+
+        <div class="am-u-lg-6 am-u-md-8 am-u-sm-12">
+          <h4 class="about-color">关于我们</h4>
+
+          <p>AllMobilize Inc (美通云动科技有限公司)
+            由前微软美国总部IE浏览器核心研发团队成员及移动互联网行业专家在美国西雅图创立，旨在解决网页在不同移动设备屏幕上的适配问题。基于国际专利技术并结合最前沿的HTML5技术，云适配解决方案可以帮助企业快速将桌面版网站适配到各种移动设备终端的屏幕上，不仅显著地提高了企业网站的用户体验以及销售转化率，而且大幅度地节省了企业开发和维护移动网站的费用。</p>
+          <h4 class="about-color">团队介绍</h4>
+
+          <p>AllMobilize Inc 获得了微软创投孵化器的支持，其领先科技已得到全球多家企业及机构的认可与信赖，客户包括全球500强企业、美国政府、国内政府机关、国内外上市公司、以及互联网标准化组织W3C。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© 2014 <a href="http://www.yunshipei.com" target="_blank">AllMobilize, Inc.</a> Licensed under <a
+      href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. by the AmazeUI Team.</p>
 </footer>
-<!-- 以上页面内容 开发时删除 -->
 
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
@@ -175,6 +276,5 @@
 <script src="/GreatProject/Public/AmazeUI/assets/js/jquery.min.js"></script>
 <!--<![endif]-->
 <script src="/GreatProject/Public/AmazeUI/assets/js/amazeui.min.js"></script>
-
 </body>
 </html>
